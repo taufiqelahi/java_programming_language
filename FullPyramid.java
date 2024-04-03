@@ -14,5 +14,8 @@ public class FullPyramid {
           
             System.out.println();
         }
+
+
+
     }
 }
