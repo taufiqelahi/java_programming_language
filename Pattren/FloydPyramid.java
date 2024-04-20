@@ -1,3 +1,4 @@
+package Pattren;
 public class FloydPyramid {
     public static void main(String[] args) {
         int n=5;

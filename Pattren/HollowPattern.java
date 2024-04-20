@@ -1,3 +1,4 @@
+package Pattren;
 public class HollowPattern {
     public static void main(String[] args) {
         int m=5;

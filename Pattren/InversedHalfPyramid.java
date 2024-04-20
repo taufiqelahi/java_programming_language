@@ -1,3 +1,4 @@
+package Pattren;
 public class InversedHalfPyramid {
     public static void main(String[] args) {
         int n=4;

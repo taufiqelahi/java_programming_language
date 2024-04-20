@@ -1,3 +1,4 @@
+package Pattren;
 
 import java.util.*;
 public class Fc {

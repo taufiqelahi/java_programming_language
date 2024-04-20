@@ -1,3 +1,4 @@
+package Pattren;
 public class DimondPattren {
     public static void main(String[] args) {
         int rows=4;
