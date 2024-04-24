@@ -18,6 +18,7 @@ System.out.println("Average ="+formateAvarage);
         System.out.println("enter value of c");
         int c=scanner.nextInt();
         calculateAvarage(a, b, c);
+        scanner.close();
     }
     
 }

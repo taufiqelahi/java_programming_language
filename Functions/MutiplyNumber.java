@@ -14,5 +14,6 @@ public class MutiplyNumber {
                 int a= scanner.nextInt();
                int  b= scanner.nextInt();
                porductOfNumbers(a, b);
+               scanner.close();
             }
 }

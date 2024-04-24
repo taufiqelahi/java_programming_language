@@ -10,6 +10,7 @@ public class GivenName {
         Scanner scanner=new Scanner(System.in);
         String username=scanner.nextLine();
         printAGivenName(username);
+        scanner.close();
 
     }
     

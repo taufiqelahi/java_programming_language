@@ -13,5 +13,6 @@ System.out.println(formateCircumfence);
         Scanner scanner=new Scanner(System.in);
 double r=scanner.nextDouble();
 calculatedCircumference(r);
+scanner.close();
     }
 }

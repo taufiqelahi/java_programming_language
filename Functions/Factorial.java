@@ -21,6 +21,7 @@ Scanner scanner=new Scanner(System.in);
 int n=scanner.nextInt();
 
 calculateFactorial(n);
+scanner.close();
 
     }
 }

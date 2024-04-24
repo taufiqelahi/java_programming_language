@@ -19,5 +19,6 @@ public class Problem3 {
        int result= findGreaterNumber(a, b);
 
        System.out.println("the Graeter number is "+ result);
+       scanner.close();
     }
 }

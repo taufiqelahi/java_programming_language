@@ -17,6 +17,7 @@ int value =0;
         Scanner scanner=new Scanner(System.in);
         int n=scanner.nextInt();
         calculateOddNumber(n);
+        scanner.close();
     }
     
 }

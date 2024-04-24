@@ -14,5 +14,6 @@ return sum;
         int a= scanner.nextInt();
        int  b= scanner.nextInt();
     addNumbers(a, b);
+    scanner.close();
     }
 }

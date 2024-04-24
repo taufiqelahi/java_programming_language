@@ -15,6 +15,7 @@ public class Problem5 {
         System.out.println("Enter your age:");
         int age=scanner.nextInt();
         findVoter(age);
+        scanner.close();
     }
     
 }
