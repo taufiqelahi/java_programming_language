@@ -1,4 +1,4 @@
-package Pattren.Functions;
+package Functions;
 
 import java.util.Scanner;
 
