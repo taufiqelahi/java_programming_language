@@ -3,6 +3,18 @@ package Arrays;
 import java.util.Scanner;
 
 public class SearchNumber {
+   public  static int LinearSearch(int[] number,int x){
+        for(int i=0;i<number.length;i++){
+            System.err.println(i);
+            if(number[i]==x){
+                
+            return i;
+            }
+          
+            
+        }
+        return -1;
+     }
     
    public static void main(String[] args) {
     
@@ -18,11 +30,10 @@ public class SearchNumber {
 
     System.out.println("Enter your finding number");
     int x=scanner.nextInt();
-    for(int i=0;i<number.length;i++){
-        if(number[i]==x){
-            System.out.println("Index of your number:"+i);
-        }
-    }
+
+    int result= LinearSearch(number,x);
+    System.out.println("Index :"+result);
+   
 
     scanner.close();
    }
