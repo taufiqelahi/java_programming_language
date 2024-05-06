@@ -27,7 +27,8 @@ public class FindingMinMax {
         System.out.println("min:"+min);
         System.out.println("max:"+max);
 
-        
+        scanner.close();
     }
+    
     
 }
