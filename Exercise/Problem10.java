@@ -27,7 +27,8 @@ public class Problem10 {
         int n = scanner.nextInt();
 
         for (int i = 0; i < n; i++) {
-            System.out.println(calculateFibonacci(i));
+            System.out.print(calculateFibonacci(i));
+            System.out.print(" ");
         }
         scanner.close();
 
