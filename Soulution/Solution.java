@@ -1,5 +1,4 @@
 package Soulution;
-import java.util.Scanner;
 
 public class Solution {
 
