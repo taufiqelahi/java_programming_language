@@ -1,24 +1,23 @@
 package test;
 
+import java.util.List;
+
 public class Type {
     public static void main(String[] args) {
         int a=dataTypeSize("Character");
         System.out.println(a);
     }
-        static int dataTypeSize(String str) {
-        if(str=="Character"){
-            return 2;
-        }else if(str=="Integer"){
-            return 4;
-        }else if(str =="Long"){
-            return 8;
-        }else if(str=="Float"){
-            return 4;
-        }else if(str=="Double"){
-            return 8;
-        }else {
-            return -1;
-        }
+        static double switchCase(int choice, List<Double> arr){
         // code here
+        switch (choice){
+            
+            case 1:
+                return arr.get(0)*arr.get(0);
+            case 2:
+                return arr.get(0)*arr.get(1);
+                default:
+                return -1;
+        }
+        
     }
 }
