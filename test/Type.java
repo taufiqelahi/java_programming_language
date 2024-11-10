@@ -4,8 +4,8 @@ import java.util.List;
 
 public class Type {
     public static void main(String[] args) {
-        int a=dataTypeSize("Character");
-        System.out.println(a);
+        // int a=switchCase("Character");
+        // System.out.println(a);
     }
         static double switchCase(int choice, List<Double> arr){
         // code here
