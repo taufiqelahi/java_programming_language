@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class Plaindrom {
     public static void main(String args[]) {
 
-        Scanner scanner = new Scanner(System.in);
-
-        String value = scanner.nextLine();
-        String result = palindrome(value);
-        System.out.println(result);
+        try (Scanner scanner = new Scanner(System.in)) {
+            String value = scanner.nextLine();
+            String result = palindrome(value);
+            System.out.println(result);
+        }
 
     }
 
