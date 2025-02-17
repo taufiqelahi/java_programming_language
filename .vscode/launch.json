@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Rotate",
+            "request": "launch",
+            "mainClass": "Arrays.Rotate",
+            "projectName": "Java_eadfe8d2"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
